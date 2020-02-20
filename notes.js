@@ -1,6 +1,5 @@
 const fs = require('fs')
-const chalk = require('chalk')
-
+const chalk =require('chalk')
 //Adding a new note by defining a new function//
 
 const addnote =(title,body)=> {
