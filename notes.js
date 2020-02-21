@@ -78,8 +78,8 @@ const savenotes=(notes)=>{
 
     const dataJSON=JSON.stringify(notes)
     fs.writeFileSync('noteapp.json',dataJSON)
+    
 }
- 
 
 const loadnotes=()=>{
     try{
